@@ -8,7 +8,7 @@ namespace Tyuiu.KonstantinovaJN.Sprint7.Project.V9.Test
         [TestMethod]
         public void CalcEducationList()
         {
-            var educationList = new List<string> { "Комедия", "Драма", "Триллер", "Комедия", "Ужасы" };
+            var educationList = new List<string> { "Комедия", "Драма", "Триллер", "Комедия" };
             var res = DataService.CalculatePercentageWithHigherEducation(educationList);
             double expectedPercentage = 60.0;
 
